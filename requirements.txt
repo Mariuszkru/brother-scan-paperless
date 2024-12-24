@@ -1,7 +1,7 @@
 ply==3.11
-pyasn1==0.4.8
-pycryptodomex==3.9.9
-pysmi==0.3.4
-pysnmp==4.4.12
-PyYAML==5.4.1
-Wand==0.6.5
+pyasn1==0.6.1
+pycryptodomex==3.21.0
+pysmi==1.5.9
+pysnmp==7.1.15
+PyYAML==6.0.2
+Wand==0.6.13
