@@ -1,7 +1,6 @@
 FROM python:3.9
 ARG BRSCAN_DEB=brscan4-0.4.11-1.amd64.deb
 
-MAINTAINER Esben Haabendal, esben@haabendal.dk
 
 # This is where the scan output will be written to
 VOLUME /output
