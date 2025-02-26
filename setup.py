@@ -5,13 +5,13 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='brscan',
-    version='0.0.1',
-    author='Esben Haabendal',
-    author_email='esben@haabendal.dk',
+    version='0.0.2',
+    author='Mariusz Krukowski',
+    author_email='mariusz.krukowski@aol.com',
     description='Service for (some) network scanners from Brother Inc.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/esben/brother-scan',
+    url='https://github.com/Mariuszkru/brother-scan-paperless',
     packages=setuptools.find_packages(),
     classifiers=(
         'Programming Language :: Python :: 3',
