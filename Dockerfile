@@ -26,7 +26,7 @@ RUN mkdir /usr/lib/sane \
     && for f in /usr/lib64/sane/libsane-brother*;do ln -s $f /usr/lib/sane/;done
 
 # Install brscan (run "setup.py build sdist" before docker build)
-COPY dist/brscan-0.0.1.tar.gz /tmp/
+COPY dist/brscan-* /tmp/
 RUN pip install --no-binary :all: /tmp/brscan-*.tar.gz
 
 # Disable ImageMagick policies for now
